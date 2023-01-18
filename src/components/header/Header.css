@@ -1,0 +1,154 @@
+.header{
+    background-image: url('../../assets/img/herobgimg.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 615px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.nav__left{
+    display: flex;
+    align-items: center;
+}
+
+.nav__left h1{
+    height: 35px;
+    width: 228px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.6173px;
+    line-height: 115%;
+    color: white;
+    cursor: pointer;
+}
+
+.nav__left img{
+    height: 56px;
+    width: 78px;
+    cursor: pointer;
+}
+
+.nav__right{
+    display: flex;
+    align-items: center;
+}
+
+.nav__right ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__right ul li{
+    margin-left: 38px;
+    height: 18px;
+    /* width: 117px; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+select{
+    background: none;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-right: 28px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+select option{
+    background: rgba(176, 49, 221, 1);
+    cursor: pointer;
+}
+
+.nav__right button{
+    padding: 9px 17px;
+    background-color: rgba(176, 49, 221, 1);
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+.hero{
+    position: relative;
+    display: flex;
+    width: 1489px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.hero__left{
+    position: absolute;
+    height: 730px;
+    width: 780px;
+    background-color: rgba(176, 49, 221, 1);
+    color: white;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.hero__left h2{
+    height: 87px;
+    width: 614px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 78px;
+    line-height: 87px;
+    margin: 0 auto;
+    margin-top: 218px;
+    margin-bottom: 40px;
+
+}
+
+.hero__left p{
+    height: 94px;
+    width: 650px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.hero__left button{
+    margin-left: 100px;
+    padding: 6px 18px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.hero__right img{
+    position: absolute;
+    left: 735px;
+    height: 730px;
+    width: 780px;
+    object-fit: cover;
+}

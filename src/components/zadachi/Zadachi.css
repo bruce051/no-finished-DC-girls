@@ -1,0 +1,68 @@
+.zadachi{
+    width: 100%;
+    height: 803px;
+    background-image: url('../../assets/img/zadachibgimg.png');
+    background-repeat: no-repeat;
+    /* background-position: 50%; */
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.zadachi h2{
+    height: 54px;
+    width: 167px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 129.5%;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    padding-top: 33px;
+}
+
+.zadachi ul{
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1442px;
+}
+
+.zadachi ul li{
+    height: 105px;
+    width: 382px;
+    border-radius: 3px;
+    background: rgba(189, 0, 255, 0.4);
+    margin: 0 40px;
+    margin-bottom: 50px;
+}
+
+.zadachi ul li{
+    height: 98px;
+    max-width: 342px;    
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+#last_child{
+    margin-left: 310px;
+    height: 105px;
+    width: 644px;
+    background: rgba(189, 0, 255, 0.4);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.8647px;
+    line-height: 129.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+}

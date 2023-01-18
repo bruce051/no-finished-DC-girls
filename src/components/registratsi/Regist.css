@@ -1,0 +1,65 @@
+.registTitle{
+    height: 47px;
+    width: 308px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 131px;
+}
+
+/* .registForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+form{
+    margin: 0 auto;
+    margin-bottom: 119px;
+    width: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 500px;
+}
+
+form input{
+    height: 30px;
+    padding: 10px 0 0 0;
+    width: 364px;
+    border: none;
+    border-bottom: 1px solid rgba(190, 0, 255, 1);
+    background: none;
+    outline: none;
+}
+
+input{
+    display: flex;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+label{
+    height: 16px;
+    width: 123px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #858585;
+}
+
+form span button{
+    margin-left: 335px;
+    cursor: pointer;
+    color: white;
+    padding: 13px 53px;
+    border: none;
+    background: #B131DD;
+    border-radius: 2px;
+}
